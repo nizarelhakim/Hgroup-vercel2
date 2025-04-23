@@ -49,7 +49,7 @@ export default function HGroupHomePage() {
             {
               title: "Development",
               desc: "Feasibility, planning, approvals, and end-to-end delivery.",
-              img: src="/images/hero.png" alt="Test Hero"
+              img: src="/images/hero.png"
             },
             {
               title: "Construction",
