@@ -113,8 +113,8 @@ export default function HGroupHomePage() {
         <p className="mb-2">P.O.Box: 6907</p>
         <p className="mb-2">Fax: 01 787 190</p>
         <p className="mb-6">Email: info@hgroup-lb.com</p>
-       <form 
-  action="https://formspree.io/f/meogqzpa" 
+       <form
+  action="https://formspree.io/f/meogqzpa"
   method="POST"
   className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mt-8"
 >
