@@ -144,8 +144,8 @@ export default function HGroupHomePage() {
 
       </section>
 {/* Privacy Policy */}
-<section id="privacy" className="bg-white text-gray-800 py-12 px-6 md:px-20 text-sm">
-  <div className="max-w-4xl mx-auto">
+<section id="privacy" className="bg-white text-gray-800 py-12 px-4 md:px-10 text-sm">
+  <div className="max-w-6xl mx-auto">
     <h3 className="text-xl font-semibold mb-4">Privacy Policy</h3>
     <p className="mb-2">
       We respect your privacy. Any personal information shared through this website will be treated with confidentiality. 
