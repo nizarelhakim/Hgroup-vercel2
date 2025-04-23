@@ -131,6 +131,7 @@ export default function HGroupHomePage() {
         <p className="mb-2">P.O.Box: 6907</p>
         <p className="mb-2">Fax: +961 (01) 787 190</p>
         <p className="mb-6">Email: <a href="email:info@hgroup-lb.com" className="underline hover:text-blue-400">info@hgroup-lb.com</a>
+          </p>
        <form
   action="https://formspree.io/f/meogqzpa"
   method="POST"
