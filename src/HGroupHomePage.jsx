@@ -60,17 +60,17 @@ export default function HGroupHomePage() {
             {
               title: "Construction",
               desc: "Robust project execution with safety and performance standards.",
-              img: "/images/construction.jpg"
+              img: "/images/construction.png"
             },
             {
               title: "Interior Fit-Out",
               desc: "Tailored finishes with spatial harmony and technology integration.",
-              img: "/images/fitout.jpg"
+              img: "/images/fitout.png"
             },
             {
               title: "Joinery & Finishes",
               desc: "Custom cabinetry and in-house craftsmanship.",
-              img: "/images/joinery.jpg"
+              img: "/images/joinery.png"
             }
           ].map((item, idx) => (
             <Card key={idx} className="rounded-2xl shadow-xl overflow-hidden">
