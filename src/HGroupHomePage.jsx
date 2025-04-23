@@ -93,16 +93,16 @@ export default function HGroupHomePage() {
         <motion.div className="grid grid-cols-1 md:grid-cols-3 gap-6" initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }}>
           {[
             {
-              src="/images/img1.png",
+              src: "/images/img2.png",
               title: "Urban Loft Interior"
             },
             {
-              src: "https://images.unsplash.com/photo-1613553489776-6f4a735c8265?auto=format&fit=crop&w=800&q=80",
-              title: "Modern Residential Complex"
+              src: "/images/img3.png",
+              title: "Modern Villa"
             },
             {
-              src: "https://images.unsplash.com/photo-1529429611270-66d9abf00576?auto=format&fit=crop&w=800&q=80",
-              title: "Contemporary Commercial Space"
+              src: "/images/img1.png",
+              title: "Residential Luxury"
             },
       {
               src: "https://images.unsplash.com/photo-1529429611270-66d9abf00576?auto=format&fit=crop&w=800&q=80",
