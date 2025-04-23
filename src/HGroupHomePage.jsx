@@ -46,7 +46,7 @@ export default function HGroupHomePage() {
       </section>
 
       {/* Expertise */}
-      <section id="expertise" className="bg-white py-16 px-6 md:px-20">
+      <section id="expertise" className="bg-white py-16 px-6 md:px-40">
         <h2 className="text-3xl font-semibold mb-6 text-center">Our Expertise</h2>
         <p className="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">From planning to execution, we master the full spectrum of real estate delivery.</p>
         <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-8" initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }}>
