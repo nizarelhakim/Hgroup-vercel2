@@ -133,7 +133,7 @@ export default function HGroupHomePage() {
         <p className="mb-2">
   Telephone: <a href="tel:+9611800640" className="underline hover:text-blue-400">+961 (01) 800 640</a> - <a href="tel:+9613366253" className="underline hover:text-blue-400">+961 (03) 366 253</a>
 </p>
-        <p className="mb-2">Address: Raouche, Austria St., Saad Bldg</p>
+        <p className="mb-2">Address: Raouche, Australia St., Saad Bldg</p>
         <p className="mb-2">P.O.Box: 6907</p>
         <p className="mb-2">Fax: +961 (01) 787 190</p>
         <p className="mb-6">Email: <a href="mailto:info@hgroup-lb.com" className="underline hover:text-blue-400">info@hgroup-lb.com</a></p>
