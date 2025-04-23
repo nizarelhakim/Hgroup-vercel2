@@ -74,7 +74,7 @@ export default function HGroupHomePage() {
             }
           ].map((item, idx) => (
             <Card key={idx} className="rounded-2xl shadow-xl overflow-hidden">
-              <img src={item.img} alt={item.title} className="w-full h-48 object-cover" />
+              <img src={item.img} alt={item.title} className="w-full h-64 object-cover" />
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
                 <p className="text-gray-700 text-base">{item.desc}</p>
