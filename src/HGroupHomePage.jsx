@@ -143,7 +143,21 @@ export default function HGroupHomePage() {
 </form>
 
       </section>
-
+{/* Privacy Policy */}
+<section id="privacy" className="bg-white text-gray-800 py-12 px-6 md:px-20 text-sm">
+  <div className="max-w-4xl mx-auto">
+    <h3 className="text-xl font-semibold mb-4">Privacy Policy</h3>
+    <p className="mb-2">
+      We respect your privacy. Any personal information shared through this website will be treated with confidentiality. 
+      We do not sell or share your data with third parties unless required by law.
+    </p>
+    <p className="mb-2">
+      By using our website, you agree to our privacy practices. For questions, contact us at 
+      <a href="mailto:info@hgroup-lb.com" className="underline text-blue-600 ml-1">info@hgroup-lb.com</a>.
+    </p>
+  </div>
+</section>
+      
       {/* Footer */}
       <footer className="bg-black text-white text-sm text-center py-4">
         <p>&copy; {new Date().getFullYear()} H-Group SARL. All rights reserved.</p>
