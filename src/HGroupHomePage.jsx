@@ -37,7 +37,7 @@ export default function HGroupHomePage() {
           <img
       src="/images/about-image.png"
       alt="H-Group About"
-      className="w-full max-w-4xl mx-auto rounded-xl shadow-lg mt-8"
+      className="w-full max-w-4xl mx-auto mb-4 rounded-xl shadow-lg mt-8"
     />
           <p className="text-lg max-w-4xl mx-auto text-gray-700">
             We deliver end-to-end construction and bespoke interior solutions, redefining high-end living and commercial spaces.
