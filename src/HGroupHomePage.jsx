@@ -116,10 +116,12 @@ export default function HGroupHomePage() {
       {/* Contact */}
       <section id="contact" className="bg-slate-800 text-white py-16 px-6 md:px-20">
         <h2 className="text-3xl font-semibold mb-6">Connect with Us</h2>
-        <p className="mb-2">Telephone: 01 800 640 - 03 366 253</p>
+        <p className="mb-2">
+  Telephone: <a href="tel:+9611800640" className="underline hover:text-blue-400">01 800 640</a> - <a href="tel:+9613366253" className="underline hover:text-blue-400">03 366 253</a>
+</p>
         <p className="mb-2">Address: Raouche, Austria St., Saad Bldg</p>
         <p className="mb-2">P.O.Box: 6907</p>
-        <p className="mb-2">Fax: 01 787 190</p>
+        <p className="mb-2">Fax: +961 (01) 787 190</p>
         <p className="mb-6">Email: info@hgroup-lb.com</p>
        <form
   action="https://formspree.io/f/meogqzpa"
