@@ -103,11 +103,11 @@ export default function HGroupHomePage() {
             {
               src: "https://images.unsplash.com/photo-1529429611270-66d9abf00576?auto=format&fit=crop&w=800&q=80",
               title: "Contemporary Commercial Space"
-            }
+            },
       {
               src: "https://images.unsplash.com/photo-1529429611270-66d9abf00576?auto=format&fit=crop&w=800&q=80",
               title: "Contemporary Commercial Space"
-            }
+            },
       {
               src: "https://images.unsplash.com/photo-1529429611270-66d9abf00576?auto=format&fit=crop&w=800&q=80",
               title: "Contemporary Commercial Space"
