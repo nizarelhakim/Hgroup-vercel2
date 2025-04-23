@@ -93,15 +93,15 @@ export default function HGroupHomePage() {
         <motion.div className="grid grid-cols-1 md:grid-cols-3 gap-6" initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }}>
           {[
             {
-              src: "/images/img2.png",
+              src: "/images/img2.jpg",
               title: "Urban Loft Interior"
             },
             {
-              src: "/images/img3.png",
-              title: "Modern Villa"
+              src: "/images/img3.jpg",
+              title: "Modern Escape"
             },
             {
-              src: "/images/img1.png",
+              src: "/images/img1.jpg",
               title: "Residential Luxury"
             },
       {
