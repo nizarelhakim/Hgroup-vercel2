@@ -49,7 +49,8 @@ export default function HGroupHomePage() {
             {
               title: "Development",
               desc: "Feasibility, planning, approvals, and end-to-end delivery.",
-              img: "https://images.unsplash.com/photo-1590650046871-2c9ad63f0f20?auto=format&fit=crop&w=800&q=80"
+              img: "/images/development.jpg"
+
             },
             {
               title: "Construction",
