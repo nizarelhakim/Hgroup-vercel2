@@ -93,7 +93,7 @@ export default function HGroupHomePage() {
         <motion.div className="grid grid-cols-1 md:grid-cols-3 gap-6" initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }}>
           {[
             {
-              src: "https://images.unsplash.com/photo-1628744445128-33c1c91e598c?auto=format&fit=crop&w=800&q=80",
+              src="/images/img1.png",
               title: "Urban Loft Interior"
             },
             {
