@@ -60,17 +60,17 @@ export default function HGroupHomePage() {
             {
               title: "Construction",
               desc: "Robust project execution with safety and performance standards.",
-              img: "https://images.unsplash.com/photo-1590650046871-2c9ad63f0f20?auto=format&fit=crop&w=800&q=80"
+              img: "/images/construction.jpg"
             },
             {
               title: "Interior Fit-Out",
               desc: "Tailored finishes with spatial harmony and technology integration.",
-              img: "https://images.unsplash.com/photo-1600585154600-bd5a23e0ed40?auto=format&fit=crop&w=800&q=80"
+              img: "/images/fitout.jpg"
             },
             {
               title: "Joinery & Finishes",
               desc: "Custom cabinetry and in-house craftsmanship.",
-              img: "https://images.unsplash.com/photo-1582582494700-1c3a8a8e308b?auto=format&fit=crop&w=800&q=80"
+              img: "/images/joinery.jpg"
             }
           ].map((item, idx) => (
             <Card key={idx} className="rounded-2xl shadow-xl overflow-hidden">
