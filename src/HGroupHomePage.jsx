@@ -1,6 +1,8 @@
 import { Card, CardContent } from "./components/ui/card";
 import { Button } from "./components/ui/button";
 import { motion } from "framer-motion";
+import { Instagram } from 'lucide-react';
+
 
 export default function HGroupHomePage() {
   return (
@@ -13,6 +15,10 @@ export default function HGroupHomePage() {
           <a href="#expertise" className="hover:text-blue-300">Expertise</a>
           <a href="#portfolio" className="hover:text-blue-300">Portfolio</a>
           <a href="#contact" className="hover:text-blue-300">Contact</a>
+          <a href="https://www.instagram.com/yourhandle" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+    <Instagram className="inline w-5 h-5" />
+  </a>
+
         </nav>
       </header>
 
