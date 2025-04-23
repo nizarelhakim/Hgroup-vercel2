@@ -18,6 +18,8 @@ export default function HGroupHomePage() {
 
       {/* Hero */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} className="relative w-full h-[90vh] bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('/images/hero.png')" }}>
+        {/* Overlay */}
+  <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="bg-black bg-opacity-50 p-6 rounded-2xl max-w-3xl text-center">
           <h1 className="text-white text-4xl md:text-6xl font-bold mb-4">Building Tomorrow, Today</h1>
           <p className="text-white text-lg md:text-xl mb-6">Comprehensive development, construction, and interior solutions since 1999.</p>
