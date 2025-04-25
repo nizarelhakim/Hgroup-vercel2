@@ -36,7 +36,7 @@ export default function HGroupHomePage() {
       </motion.div>
 
      {/* About */}
-<section id="about" className="py-20 px-6 md:px-20 bg-white">
+<section id="about" className="mt-16 py-20 px-6 md:px-20 bg-white">
   <motion.div 
     className="flex flex-col md:flex-row items-center gap-12"
     initial={{ opacity: 0, y: 50 }} 
