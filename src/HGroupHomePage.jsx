@@ -46,7 +46,7 @@ export default function HGroupHomePage() {
   >
     {/* Text */}
     <div className="md:w-1/2 text-center md:text-left">
-      <h2 className="text-4xl font-bold mb-6 text-slate-800">Built on Heritage. Driven by Excellence.</h2>
+      <h2 className="text-5xl font-bold mb-6 text-slate-800">Built on Heritage. Driven by Excellence.</h2>
       <p className="text-lg text-gray-700 mb-4">
         Founded in 1999 by civil engineer Majd Hakim and architect Samir Hakim, H-Group SARL is a family-rooted firm with a legacy of over 30 years in premium construction and interior delivery.
       </p>
