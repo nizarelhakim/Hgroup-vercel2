@@ -35,23 +35,40 @@ export default function HGroupHomePage() {
         </div>
       </motion.div>
 
-      {/* About */}
-      <section id="about" className="py-20 px-6 md:px-20 text-center bg-white">
-        <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }}>
-          <h2 className="text-4xl font-bold mb-6 text-slate-800">Leading with Excellence</h2>
-          <p className="text-lg max-w-4xl mx-auto mb-4 text-gray-700">
-            H-Group SARL is a leading name in premium real estate development, construction, and interior fit-out across Lebanon and the region—renowned for our dedication to expert craftsmanship, client relationships, and timeless design.
-          </p>
-          <img
-      src="/images/about-image.png"
-      alt="H-Group About"
-      className="w-full max-w-4xl mx-auto mb-4 rounded-xl shadow-lg mt-8"
-    />
-          <p className="text-lg max-w-4xl mx-auto text-gray-700">
-            We deliver end-to-end construction and bespoke interior solutions, redefining high-end living and commercial spaces.
-          </p>
-        </motion.div>
-      </section>
+     {/* About */}
+<section id="about" className="py-20 px-6 md:px-20 bg-white">
+  <motion.div 
+    className="flex flex-col md:flex-row items-center gap-12"
+    initial={{ opacity: 0, y: 50 }} 
+    whileInView={{ opacity: 1, y: 0 }} 
+    transition={{ duration: 0.6 }} 
+    viewport={{ once: true }}
+  >
+    {/* Text */}
+    <div className="md:w-1/2 text-center md:text-left">
+      <h2 className="text-4xl font-bold mb-6 text-slate-800">Built on Heritage. Driven by Excellence.</h2>
+      <p className="text-lg text-gray-700 mb-4">
+        Founded in 1999 by civil engineer Majd Hakim and architect Samir Hakim, H-Group SARL is a family-rooted firm with a legacy of over 30 years in premium construction and interior delivery.
+      </p>
+      <p className="text-lg text-gray-700 mb-4">
+        From ground-up developments to high-end interior transformations, our approach is built on trust, craftsmanship, and a commitment to enduring design. We pride ourselves on shaping timeless spaces that reflect both innovation and integrity.
+      </p>
+      <p className="text-lg text-gray-700">
+        Today, H-Group continues to carry forward a tradition of precision and care—delivering projects that feel personal, purposeful, and distinctly bespoke.
+      </p>
+    </div>
+
+    {/* Image */}
+    <div className="md:w-1/2">
+      <img 
+        src="/images/about-image.png" 
+        alt="About H-Group SARL" 
+        className="w-full rounded-xl shadow-lg"
+      />
+    </div>
+  </motion.div>
+</section>
+
 
       {/* Expertise */}
       <section id="expertise" className="bg-white py-16 px-6 md:px-40">
