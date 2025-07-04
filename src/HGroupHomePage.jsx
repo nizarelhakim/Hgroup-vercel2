@@ -132,11 +132,11 @@ export default function HGroupHomePage() {
               title: "AUB Comic Center"
             },
       {
-              src: "SLDP6569.JPG",
+              src: "/images/SLDP6569.JPG",
               title: "Residential Luxury"
-            }
+            },
   {
-              src: "t4.jpg",
+              src: "/images/t4.jpg",
               title: "Award Winning Office"
             }
           ].map((p, i) => (
