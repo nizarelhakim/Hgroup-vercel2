@@ -23,7 +23,7 @@ export default function HGroupHomePage() {
       </header>
 
       {/* Hero */}
-      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} className="relative w-full h-[90vh] bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('/images/hero.png')" }}>
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} className="relative w-full h-[90vh] bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('/images/about-image.jpg')" }}>
         {/* Overlay */}
   <div className="absolute inset-0 bg-black bg-opacity-40 pointer-events-none"></div>
         <div className="bg-black bg-opacity-50 p-6 rounded-2xl max-w-3xl text-center">
