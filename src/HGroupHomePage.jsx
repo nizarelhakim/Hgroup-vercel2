@@ -61,7 +61,7 @@ export default function HGroupHomePage() {
     {/* Image */}
     <div className="md:w-1/2">
       <img 
-        src="/images/about-image.jpg" 
+        src="/images/about-image.png" 
         alt="About H-Group SARL" 
         className="w-full rounded-xl shadow-lg"
       />
@@ -128,12 +128,16 @@ export default function HGroupHomePage() {
               title: "Residential Luxury"
             },
       {
-              src: "https://images.unsplash.com/photo-1529429611270-66d9abf00576?auto=format&fit=crop&w=800&q=80",
-              title: "Contemporary Commercial Space"
+              src: "/images/YGWO5492.JPG",
+              title: "AUB Comic Center"
             },
       {
-              src: "https://images.unsplash.com/photo-1529429611270-66d9abf00576?auto=format&fit=crop&w=800&q=80",
-              title: "Contemporary Commercial Space"
+              src: "SLDP6569.JPG",
+              title: "Residential Luxury"
+            }
+  {
+              src: "t4.jpg",
+              title: "Award Winning Office"
             }
           ].map((p, i) => (
             <div key={i} className="rounded-2xl overflow-hidden shadow-lg">
