@@ -61,7 +61,7 @@ export default function HGroupHomePage() {
     {/* Image */}
     <div className="md:w-1/2">
       <img 
-        src="/images/about-image.png" 
+        src="/images/about-image.jpg" 
         alt="About H-Group SARL" 
         className="w-full rounded-xl shadow-lg"
       />
