@@ -58,6 +58,11 @@ const portfolio = [
   { src: "/images/YGWO5492.JPG", title: "AUB Comic Center" },
   { src: "/images/SLDP6569.JPG", title: "Residential Luxury" },
   { src: "/images/t4.jpg", title: "Award Winning Office" },
+  { src: "/images/verdun-883.jpg", title: "Verdun 883" },
+  { src: "/images/achrafie-883.jpg", title: "Achrafie 883" },
+  { src: "/images/building-2190.jpg", title: "Building 2190" },
+  { src: "/images/building-clemenceau.jpg", title: "Building Clemenceau" },
+  { src: "/images/maymouna-office.jpg", title: "Maymouna Office" },
 ];
 
 const values = [
