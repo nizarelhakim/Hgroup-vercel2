@@ -64,12 +64,12 @@ export const portfolio = [
   },
   {
     images: [
+      "/images/building-clemenceau-6.jpg",
       "/images/building-clemenceau-1.jpg",
       "/images/building-clemenceau-2.jpg",
       "/images/building-clemenceau-3.jpg",
       "/images/building-clemenceau-4.jpg",
       "/images/building-clemenceau-5.jpg",
-      "/images/building-clemenceau-6.jpg",
       "/images/building-clemenceau-7.jpg",
       "/images/building-clemenceau-8.jpg",
       "/images/building-clemenceau-9.jpg",
