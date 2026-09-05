@@ -23,6 +23,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <div className="space-y-3 text-lg text-ink-600">
             <p>
+              Tel:{" "}
               <a href={`tel:${contact.phones[0].replace(/[^+\d]/g, "")}`} className="hover:text-bone-50 transition-colors">{contact.phones[0]}</a>
               {" "}&mdash;{" "}
               <a href={`tel:${contact.phones[1].replace(/[^+\d]/g, "")}`} className="hover:text-bone-50 transition-colors">{contact.phones[1]}</a>

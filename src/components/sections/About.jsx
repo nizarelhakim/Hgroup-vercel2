@@ -38,7 +38,7 @@ export default function About() {
               Driven by excellence.
             </h2>
             <p className="text-lg text-ink-800 mb-4 max-w-xl">
-              Founded in 1999 by civil engineer Majd Hakim and architect Samir Hakim, H-Group SARL is a family-rooted firm with a legacy of over 30 years in premium construction and interior delivery.
+              Founded in 1999 by civil engineer Majd Hakim and architect Samir Hakim, H-Group SARL is a family-rooted firm with a legacy of {yearsOfExperience}+ years in premium construction and interior delivery.
             </p>
             <p className="text-lg text-ink-800 mb-4 max-w-xl">
               From ground-up developments to high-end interior transformations, our approach is built on trust, craftsmanship, and a commitment to enduring design.

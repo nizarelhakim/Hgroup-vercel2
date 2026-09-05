@@ -20,7 +20,12 @@ export default function Portfolio() {
     <section id="portfolio" className="scroll-mt-20 bg-bone-50 py-24 md:py-32 px-6 md:px-10">
       <div className="max-w-5xl mx-auto">
         <div className="flex items-end justify-between mb-16 border-b border-ink-950/10 pb-8">
-          <h2 className="font-display font-extrabold text-ink-950 text-4xl md:text-6xl">Selected Work</h2>
+          <div>
+            <p className="font-display font-bold uppercase tracking-[0.2em] text-clay-500 text-xs mb-4">
+              Portfolio
+            </p>
+            <h2 className="font-display font-extrabold text-ink-950 text-4xl md:text-6xl">Selected Work</h2>
+          </div>
           <p className="hidden md:block text-ink-600 text-sm max-w-xs text-right">
             A curated index of our most distinctive projects.
           </p>
