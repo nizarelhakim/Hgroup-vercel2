@@ -36,17 +36,59 @@ export const expertise = [
 ];
 
 export const portfolio = [
-  { src: "/images/img2.jpg", title: "Urban Loft Interior", category: "Interior" },
-  { src: "/images/img3.jpg", title: "Modern Escape", category: "Residential" },
-  { src: "/images/img1.jpg", title: "Residential Luxury", category: "Residential" },
-  { src: "/images/YGWO5492.JPG", title: "AUB Comic Center", category: "Commercial" },
-  { src: "/images/SLDP6569.JPG", title: "Residential Luxury II", category: "Residential" },
-  { src: "/images/t4.jpg", title: "Award Winning Office", category: "Commercial" },
-  { src: "/images/verdun-883.jpg", title: "Verdun 883", category: "Residential" },
-  { src: "/images/achrafie-883.jpg", title: "Achrafie 883", category: "Residential" },
-  { src: "/images/building-2190.jpg", title: "Building 2190", category: "Residential" },
-  { src: "/images/building-clemenceau.jpg", title: "Building Clemenceau", category: "Residential" },
-  { src: "/images/maymouna-office.jpg", title: "Maymouna Office", category: "Commercial" },
+  { images: ["/images/img2.jpg"], title: "Urban Loft Interior", category: "Interior" },
+  { images: ["/images/img3.jpg"], title: "Modern Escape", category: "Residential" },
+  { images: ["/images/img1.jpg"], title: "Residential Luxury", category: "Residential" },
+  { images: ["/images/YGWO5492.JPG"], title: "AUB Comic Center", category: "Commercial" },
+  { images: ["/images/SLDP6569.JPG"], title: "Residential Luxury II", category: "Residential" },
+  {
+    images: ["/images/t4.jpg", "/images/t4-2.jpg", "/images/t4-3.jpg", "/images/t4-4.jpg"],
+    title: "Award Winning Office",
+    category: "Commercial",
+  },
+  {
+    images: ["/images/verdun-883-1.jpg", "/images/verdun-883-2.jpg", "/images/verdun-883-3.jpg"],
+    title: "Verdun 883",
+    category: "Residential",
+  },
+  { images: ["/images/achrafie-883.jpg"], title: "Achrafie 883", category: "Residential" },
+  {
+    images: [
+      "/images/building-2190-1.jpg",
+      "/images/building-2190-2.jpg",
+      "/images/building-2190-3.jpg",
+      "/images/building-2190-4.jpg",
+    ],
+    title: "Building 2190",
+    category: "Residential",
+  },
+  {
+    images: [
+      "/images/building-clemenceau-1.jpg",
+      "/images/building-clemenceau-2.jpg",
+      "/images/building-clemenceau-3.jpg",
+      "/images/building-clemenceau-4.jpg",
+      "/images/building-clemenceau-5.jpg",
+      "/images/building-clemenceau-6.jpg",
+      "/images/building-clemenceau-7.jpg",
+      "/images/building-clemenceau-8.jpg",
+      "/images/building-clemenceau-9.jpg",
+    ],
+    title: "Building Clemenceau",
+    category: "Residential",
+  },
+  {
+    images: [
+      "/images/maymouna-office-1.jpg",
+      "/images/maymouna-office-2.jpg",
+      "/images/maymouna-office-3.jpg",
+      "/images/maymouna-office-4.jpg",
+      "/images/maymouna-office-5.jpg",
+      "/images/maymouna-office-6.jpg",
+    ],
+    title: "Maymouna Office",
+    category: "Commercial",
+  },
 ].map((item, i) => ({ ...item, index: String(i + 1).padStart(2, "0") }));
 
 export const values = [
