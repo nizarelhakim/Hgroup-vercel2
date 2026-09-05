@@ -52,12 +52,14 @@ export default function Portfolio() {
                       transition={{ duration: 0.35 }}
                       className="overflow-hidden"
                     >
-                      <img
-                        src={p.src}
-                        alt={p.title}
-                        loading="lazy"
-                        className="w-full h-56 md:h-96 object-cover rounded-sm mb-6"
-                      />
+                      <div className="w-full max-h-[75vh] flex items-center justify-center bg-ink-950/5 rounded-sm mb-6">
+                        <img
+                          src={p.src}
+                          alt={p.title}
+                          loading="lazy"
+                          className="w-full max-h-[75vh] object-contain"
+                        />
+                      </div>
                     </motion.div>
                   )}
                 </AnimatePresence>
