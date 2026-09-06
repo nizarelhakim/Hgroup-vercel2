@@ -48,10 +48,10 @@ export const portfolio = [
   },
   {
     images: ["/images/verdun-883-1.jpg", "/images/verdun-883-2.jpg", "/images/verdun-883-3.jpg"],
-    title: "Verdun 883",
+    title: "Ashrafie 884",
     category: "Residential",
   },
-  { images: ["/images/achrafie-883.jpg"], title: "Achrafie 883", category: "Residential" },
+  { images: ["/images/achrafie-883.jpg"], title: "Verdun 1485", category: "Residential" },
   {
     images: [
       "/images/building-2190-1.jpg",
